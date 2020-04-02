@@ -44,7 +44,7 @@ with open('requirements.txt') as requirements:
 
 
 setup(
-    name='Sugaroid-ChatterBot',
+    name='sugaroid-chatterBot',
     version=VERSION,
     url=URL,
     download_url='{}/tarball/{}'.format(URL, VERSION),
