@@ -44,14 +44,14 @@ with open('requirements.txt') as requirements:
 
 
 setup(
-    name='ChatterBot',
+    name='Sugaroid-ChatterBot',
     version=VERSION,
     url=URL,
     download_url='{}/tarball/{}'.format(URL, VERSION),
     project_urls={
         'Documentation': 'https://chatterbot.readthedocs.io',
     },
-    description='ChatterBot is a machine learning, conversational dialog engine.',
+    description='ChatterBot is a machine learning, conversational dialog engine optimized for Sugaroid bot.',
     long_description=LONG_DESCRIPTION,
     long_description_content_type='text/markdown',
     author=AUTHOR,
